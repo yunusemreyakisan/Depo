@@ -30,6 +30,7 @@
     <string name="btn_google_giris">Google Giriş</string>
     <string name="copyright">Copyright © 2022 All Rights Reserved.</string>
     <string name="default_web_client_id" translatable="false">41520331102-206cubelalfgdfe5uhnhr2l2d4mr2fs4.apps.googleusercontent.com</string>
+    <string name="email_text">E-Mail</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">41520331102</string>
     <string name="google_api_key" translatable="false">AIzaSyC_mMVvFFAOyxECXMev36j8ql-hg8EJOI8</string>
@@ -41,7 +42,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hey_giris_yap">Hey, \nGiriş yap.</string>
     <string name="hyperlink"><a href="https://www.linkedin.com/in/yunusemreyakisan/">Şifremi unuttum</a></string>
-    <string name="kullanici_Adi">Kullanıcı Adı</string>
     <string name="logo">Logo</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
