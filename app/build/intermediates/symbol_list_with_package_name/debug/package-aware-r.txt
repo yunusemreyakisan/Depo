@@ -151,7 +151,6 @@ attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
-attr background_color
 attr badgeGravity
 attr badgeRadius
 attr badgeStyle
@@ -887,6 +886,7 @@ attr popupMenuBackground
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
+attr postSplashScreenTheme
 attr prefixText
 attr prefixTextAppearance
 attr prefixTextColor
@@ -966,6 +966,7 @@ attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
+attr splashScreenIconSize
 attr splitLayoutDirection
 attr splitMinSmallestWidth
 attr splitMinWidth
@@ -1109,7 +1110,6 @@ attr textOutlineThickness
 attr textPanX
 attr textPanY
 attr textStartPadding
-attr text_color
 attr textureBlurFactor
 attr textureEffect
 attr textureHeight
@@ -1210,6 +1210,10 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
+attr windowSplashScreenAnimatedIcon
+attr windowSplashScreenAnimationDuration
+attr windowSplashScreenBackground
+attr windowSplashScreenIconBackgroundColor
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
@@ -1265,6 +1269,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blackTxt
 color blueButtonColor
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -1284,6 +1289,9 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1338,11 +1346,12 @@ color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
 color editTextColor
-color editText_color
 color error_color_material_dark
 color error_color_material_light
+color fav
 color foreground_material_dark
 color foreground_material_light
+color grayTxt
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1811,6 +1820,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color myfav
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -2172,7 +2182,6 @@ dimen m3_sys_typescale_title_small_letter_spacing
 dimen m3_sys_typescale_title_small_text_size
 dimen m3_timepicker_display_stroke_width
 dimen m3_timepicker_window_elevation
-dimen mainMarginBottom
 dimen marginBottom
 dimen material_bottom_sheet_max_width
 dimen material_clock_display_padding
@@ -2422,6 +2431,13 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen splashscreen_icon_mask_size_no_background
+dimen splashscreen_icon_mask_size_with_background
+dimen splashscreen_icon_mask_stroke_no_background
+dimen splashscreen_icon_mask_stroke_with_background
+dimen splashscreen_icon_size
+dimen splashscreen_icon_size_no_background
+dimen splashscreen_icon_size_with_background
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -2526,6 +2542,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arkaplan
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2536,7 +2553,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable btndepobackground
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2556,6 +2572,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable compat_splash_screen
+drawable compat_splash_screen_no_icon_background
 drawable depoarkaplan
 drawable depologowhite
 drawable design_fab_background
@@ -2568,16 +2586,13 @@ drawable googleg_standard_color_18
 drawable ic_baseline_add_24
 drawable ic_baseline_auto_delete_24
 drawable ic_baseline_compare_arrows_24
-drawable ic_baseline_content_paste_24
-drawable ic_baseline_info_24
 drawable ic_baseline_warehouse
 drawable ic_clock_black_24dp
-drawable ic_dashboard_black_24dp
-drawable ic_google
-drawable ic_home_black_24dp
+drawable ic_kayitolresmi
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logo
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2585,8 +2600,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_notifications_black_24dp
 drawable ic_splash_screen_dark
+drawable icon_background
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2629,7 +2644,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable rounded_corner
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2638,7 +2652,6 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id CopyrightText
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2747,13 +2760,13 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_theme_switch
 id btnDepoIslemleri
+id btnDepolarimaEkle
 id btnGirisYap
-id btnGoogleGiris
 id btnKaydol
 id btnKayitOl
 id btnStokBilgisi
 id btnUrunIslemleri
-id button
+id btnYeniDepoEkle
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2810,7 +2823,7 @@ id depoAdres
 id depoAdresWrapper
 id depoBuyukluk
 id depoBuyuklukWrapper
-id depoLogoSplash
+id depoListesi
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2900,6 +2913,7 @@ id item4
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id kayitOlLogo
 id kullaniciAdiWrapper
 id labeled
 id layout
@@ -3054,8 +3068,6 @@ id showCustom
 id showHome
 id showTitle
 id sifre
-id sifreAgain
-id sifreAgainWrapper
 id sifreWrapper
 id sin
 id skipCollapsed
@@ -3070,6 +3082,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id splashscreen_icon_view
 id spline
 id split_action_bar
 id spread
@@ -3147,6 +3160,7 @@ id txtGirisYap
 id txtGrsEmail
 id txtGrsSifre
 id txtHosgeldin
+id txtKayitOl
 id txtSifremiUnuttum
 id unchecked
 id uniform
@@ -3180,6 +3194,7 @@ integer bottom_sheet_slide_duration
 integer cancel_button_image_alpha
 integer config_navAnimTime
 integer config_tooltipAnimTime
+integer default_icon_animation_duration
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
 integer google_play_services_version
@@ -3261,10 +3276,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_depo_ekle
+layout activity_depolarim
 layout activity_home_page
 layout activity_kayit_ol
 layout activity_main
-layout activity_splash_screen
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3347,6 +3362,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout splash_screen_view
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -3371,6 +3387,8 @@ mipmap ic_depo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string CD_logo
+string CD_logo_image
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3398,7 +3416,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string activity_kayit_ol_lbl_kayit_ol
+string ad_soyad_hint
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3408,6 +3426,7 @@ string bottomsheet_action_expand_halfway
 string btnKaydol
 string btn_giris_yap
 string btn_google_giris
+string cdTodo
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3433,6 +3452,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copyright
 string default_web_client_id
+string e_posta_hint
 string email_text
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3440,11 +3460,11 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
 string gcm_defaultSenderId
+string get_started
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
-string hello_blank_fragment
 string hello_first_fragment
 string hello_second_fragment
 string hey_giris_yap
@@ -3452,6 +3472,8 @@ string hide_bottom_view_on_scroll_behavior
 string hyperlink
 string icon_content_description
 string item_view_role_description
+string kayit_ol_hint
+string lbl_kayit_ol
 string logo
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
@@ -3547,14 +3569,19 @@ string project_id
 string search_menu_title
 string second_fragment_label
 string sifre
+string sifre_hint
 string splash_info
 string status_bar_notification_info_overflow
+string subtitle1
 string title_activity_anasayfa
 string title_activity_bottom_nav_bar
 string title_activity_hesap_yok
 string title_dashboard
 string title_home
 string title_notifications
+string txtDepoIslemleri
+string txtHosgeldniz
+string txtUrunIslemleri
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3671,6 +3698,9 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
+style Base_Theme_SplashScreen
+style Base_Theme_SplashScreen_DayNight
+style Base_Theme_SplashScreen_Light
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -3829,6 +3859,10 @@ style Base_Widget_MaterialComponents_Snackbar
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
+style Base_v21_Theme_SplashScreen
+style Base_v21_Theme_SplashScreen_Light
+style Base_v27_Theme_SplashScreen
+style Base_v27_Theme_SplashScreen_Light
 style CardView
 style CardView_Dark
 style CardView_Light
@@ -4138,6 +4172,9 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_SplashScreen
+style Theme_SplashScreen_Common
+style Theme_SplashScreen_IconBackground
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -4749,7 +4786,6 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
-styleable dark_theme background_color text_color
 styleable include constraintSet
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

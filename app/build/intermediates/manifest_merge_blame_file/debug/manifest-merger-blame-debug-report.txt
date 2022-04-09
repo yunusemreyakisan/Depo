@@ -10,304 +10,314 @@
 9        android:targetSdkVersion="32" />
 9-->C:\Depo\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:23:5-67
-11-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:23:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:24:22-65
-14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:5-79
-14-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:25:22-76
-15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:26:22-107
-16
-17    <application
-17-->C:\Depo\app\src\main\AndroidManifest.xml:5:5-37:19
-18        android:allowBackup="true"
-18-->C:\Depo\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.7.0] D:\Program Files\Clock\caches\transforms-3\fb9aa2ab3966fe894c67bd9003ea76a4\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->C:\Depo\app\src\main\AndroidManifest.xml:7:9-43
-23        android:label="@string/app_name"
-23-->C:\Depo\app\src\main\AndroidManifest.xml:8:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->C:\Depo\app\src\main\AndroidManifest.xml:9:9-54
-25        android:supportsRtl="true"
-25-->C:\Depo\app\src\main\AndroidManifest.xml:10:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.Light" >
-27-->C:\Depo\app\src\main\AndroidManifest.xml:11:9-43
-28        <activity
-28-->C:\Depo\app\src\main\AndroidManifest.xml:12:9-14:39
-29            android:name="mf.bm443.depo.DepoEkle"
-29-->C:\Depo\app\src\main\AndroidManifest.xml:13:13-37
-30            android:exported="true" />
-30-->C:\Depo\app\src\main\AndroidManifest.xml:14:13-36
-31        <activity
-31-->C:\Depo\app\src\main\AndroidManifest.xml:15:9-17:38
-32            android:name="mf.bm443.depo.KayitOl"
-32-->C:\Depo\app\src\main\AndroidManifest.xml:16:13-36
-33            android:exported="true" />
-33-->C:\Depo\app\src\main\AndroidManifest.xml:17:13-36
-34        <activity
-34-->C:\Depo\app\src\main\AndroidManifest.xml:18:9-20:38
-35            android:name="mf.bm443.depo.HomePage"
-35-->C:\Depo\app\src\main\AndroidManifest.xml:19:13-37
-36            android:exported="true" />
-36-->C:\Depo\app\src\main\AndroidManifest.xml:20:13-36
-37        <activity
-37-->C:\Depo\app\src\main\AndroidManifest.xml:22:9-24:39
-38            android:name="mf.bm443.depo.MainActivity"
-38-->C:\Depo\app\src\main\AndroidManifest.xml:23:13-41
-39            android:exported="true" />
-39-->C:\Depo\app\src\main\AndroidManifest.xml:24:13-36
-40        <activity
-40-->C:\Depo\app\src\main\AndroidManifest.xml:26:9-34:20
-41            android:name="mf.bm443.depo.SplashScreen"
-41-->C:\Depo\app\src\main\AndroidManifest.xml:27:13-41
-42            android:exported="true" >
-42-->C:\Depo\app\src\main\AndroidManifest.xml:28:13-36
-43            <intent-filter>
-43-->C:\Depo\app\src\main\AndroidManifest.xml:29:13-33:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Depo\app\src\main\AndroidManifest.xml:30:17-69
-44-->C:\Depo\app\src\main\AndroidManifest.xml:30:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Depo\app\src\main\AndroidManifest.xml:32:17-77
-46-->C:\Depo\app\src\main\AndroidManifest.xml:32:27-74
-47            </intent-filter>
-48        </activity>
-49        <activity
-49-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
-50            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-50-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
-51            android:excludeFromRecents="true"
-51-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
-52            android:exported="true"
-52-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
-53            android:launchMode="singleTask"
-53-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
-54            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-54-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
-55            <intent-filter>
-55-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
-56                <action android:name="android.intent.action.VIEW" />
-56-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
-56-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
-57
-58                <category android:name="android.intent.category.DEFAULT" />
-58-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
-58-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
-59                <category android:name="android.intent.category.BROWSABLE" />
-59-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
-59-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
-60
-61                <data
-61-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
-62                    android:host="firebase.auth"
-62-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
-63                    android:path="/"
-63-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
-64                    android:scheme="genericidp" />
-64-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
-65            </intent-filter>
-66        </activity>
-67        <activity
-67-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
-68            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-68-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
-69            android:excludeFromRecents="true"
-69-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
-70            android:exported="true"
-70-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
-71            android:launchMode="singleTask"
-71-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-72-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
-73            <intent-filter>
-73-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
-74                <action android:name="android.intent.action.VIEW" />
-74-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
-74-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
-75
-76                <category android:name="android.intent.category.DEFAULT" />
-76-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
-76-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
-77                <category android:name="android.intent.category.BROWSABLE" />
-77-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
-77-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
-78
-79                <data
-79-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
-80                    android:host="firebase.auth"
-80-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
-81                    android:path="/"
-81-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
-82                    android:scheme="recaptcha" />
-82-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
-83            </intent-filter>
-84        </activity>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:5-79
+13-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:14:5-67
+14-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:14:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->C:\Depo\app\src\main\AndroidManifest.xml:5:5-36:19
+20        android:allowBackup="true"
+20-->C:\Depo\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] D:\Program Files\Clock\caches\transforms-3\fb9aa2ab3966fe894c67bd9003ea76a4\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/ic_logo"
+24-->C:\Depo\app\src\main\AndroidManifest.xml:7:9-41
+25        android:label="@string/app_name"
+25-->C:\Depo\app\src\main\AndroidManifest.xml:8:9-41
+26        android:roundIcon="@drawable/ic_logo"
+26-->C:\Depo\app\src\main\AndroidManifest.xml:9:9-46
+27        android:supportsRtl="true"
+27-->C:\Depo\app\src\main\AndroidManifest.xml:10:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Light" >
+29-->C:\Depo\app\src\main\AndroidManifest.xml:11:9-43
+30        <activity
+30-->C:\Depo\app\src\main\AndroidManifest.xml:13:9-15:39
+31            android:name="mf.bm443.depo.DepoEkle"
+31-->C:\Depo\app\src\main\AndroidManifest.xml:14:13-37
+32            android:exported="true" />
+32-->C:\Depo\app\src\main\AndroidManifest.xml:15:13-36
+33        <activity
+33-->C:\Depo\app\src\main\AndroidManifest.xml:16:9-18:39
+34            android:name="mf.bm443.depo.Depolarim"
+34-->C:\Depo\app\src\main\AndroidManifest.xml:17:13-38
+35            android:exported="true" />
+35-->C:\Depo\app\src\main\AndroidManifest.xml:18:13-36
+36        <activity
+36-->C:\Depo\app\src\main\AndroidManifest.xml:19:9-21:39
+37            android:name="mf.bm443.depo.KayitOl"
+37-->C:\Depo\app\src\main\AndroidManifest.xml:20:13-36
+38            android:exported="true" />
+38-->C:\Depo\app\src\main\AndroidManifest.xml:21:13-36
+39        <activity
+39-->C:\Depo\app\src\main\AndroidManifest.xml:22:9-24:39
+40            android:name="mf.bm443.depo.HomePage"
+40-->C:\Depo\app\src\main\AndroidManifest.xml:23:13-37
+41            android:exported="true" />
+41-->C:\Depo\app\src\main\AndroidManifest.xml:24:13-36
+42        <activity
+42-->C:\Depo\app\src\main\AndroidManifest.xml:26:9-34:20
+43            android:name="mf.bm443.depo.MainActivity"
+43-->C:\Depo\app\src\main\AndroidManifest.xml:27:13-41
+44            android:exported="true"
+44-->C:\Depo\app\src\main\AndroidManifest.xml:29:13-36
+45            android:theme="@style/Theme.Light" >
+45-->C:\Depo\app\src\main\AndroidManifest.xml:28:13-47
+46            <intent-filter>
+46-->C:\Depo\app\src\main\AndroidManifest.xml:30:13-33:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Depo\app\src\main\AndroidManifest.xml:31:17-69
+47-->C:\Depo\app\src\main\AndroidManifest.xml:31:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Depo\app\src\main\AndroidManifest.xml:32:17-77
+49-->C:\Depo\app\src\main\AndroidManifest.xml:32:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:17:9-23:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:18:13-84
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:19:13-37
+57            <meta-data
+57-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
+58                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+58-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-firestore:24.1.0] D:\Program Files\Clock\caches\transforms-3\25c9e17fe7e99e7ab9be1cde367beadf\transformed\jetified-firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\508446fc3976522f9a5d22e9cb244144\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+64-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\508446fc3976522f9a5d22e9cb244144\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\508446fc3976522f9a5d22e9cb244144\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+66            <meta-data
+66-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+67                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+67-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.android.gms:play-services-measurement-api:20.1.2] D:\Program Files\Clock\caches\transforms-3\18de6eb7683cda1f7f87b8b1c8960892\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\ed7b4d8266a46a1952958f1f2031d0f2\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+70                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+70-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\ed7b4d8266a46a1952958f1f2031d0f2\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\ed7b4d8266a46a1952958f1f2031d0f2\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+72        </service>
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
 85
-86        <service
-86-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:64:9-70:19
-87            android:name="com.google.firebase.components.ComponentDiscoveryService"
-87-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:65:13-84
-88            android:directBootAware="true"
-88-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
-89            android:exported="false" >
-89-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:66:13-37
-90            <meta-data
-90-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
-91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-91-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d7d1c36225808f6cc525ee9064daafb1\transformed\firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
-93            <meta-data
-93-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\927f511b52cb9ba10ec75b3125bfb5b1\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
-94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-94-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\927f511b52cb9ba10ec75b3125bfb5b1\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.firebase:firebase-database:20.0.4] D:\Program Files\Clock\caches\transforms-3\927f511b52cb9ba10ec75b3125bfb5b1\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
-96            <meta-data
-96-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:31:13-33:85
-97                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-97-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:32:17-139
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.android.gms:play-services-measurement-api:20.1.1] D:\Program Files\Clock\caches\transforms-3\fa1d90dd219eeca8229357ed123d0790\transformed\play-services-measurement-api-20.1.1\AndroidManifest.xml:33:17-82
-99            <meta-data
-99-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\cc19bd5aaf1fbbff7fcb601e40f4c11b\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-100-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\cc19bd5aaf1fbbff7fcb601e40f4c11b\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.firebase:firebase-installations:17.0.1] D:\Program Files\Clock\caches\transforms-3\cc19bd5aaf1fbbff7fcb601e40f4c11b\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-102        </service>
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
 103
-104        <activity
-104-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
-105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-105-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
-106            android:excludeFromRecents="true"
-106-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
-107            android:exported="false"
-107-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
-108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-108-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
-109        <!--
-110            Service handling Google Sign-In user revocation. For apps that do not integrate with
-111            Google Sign-In, this service will never be started.
-112        -->
-113        <service
-113-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
-114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-114-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
-115            android:exported="true"
-115-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
-116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-116-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
-117            android:visibleToInstantApps="true" />
-117-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\1108b63f1131eb4bae36aa23becf7ee7\transformed\play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
-118
-119        <provider
-119-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
-120            android:name="com.google.firebase.provider.FirebaseInitProvider"
-120-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
-121            android:authorities="com.mf.bm443.depo.firebaseinitprovider"
-121-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
-122            android:directBootAware="true"
-122-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
-123            android:exported="false"
-123-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
-124            android:initOrder="100" />
-124-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\3d3046c03e2c58ca4fecb9a85cbcc3a4\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
-125
-126        <activity
-126-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\13817dd7ba3be49b3c4499da839bb44c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-127-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\13817dd7ba3be49b3c4499da839bb44c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-128            android:exported="false"
-128-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\13817dd7ba3be49b3c4499da839bb44c\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-129-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\13817dd7ba3be49b3c4499da839bb44c\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-130
-131        <receiver
-131-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:29:9-33:20
-132            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-132-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:30:13-85
-133            android:enabled="true"
-133-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:31:13-35
-134            android:exported="false" >
-134-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:32:13-37
-135        </receiver>
-136
-137        <service
-137-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:35:9-38:40
-138            android:name="com.google.android.gms.measurement.AppMeasurementService"
-138-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:36:13-84
-139            android:enabled="true"
-139-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:37:13-35
-140            android:exported="false" />
-140-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:38:13-37
-141        <service
-141-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:39:9-43:72
-142            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-142-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:40:13-87
-143            android:enabled="true"
-143-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:41:13-35
-144            android:exported="false"
-144-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:42:13-37
-145            android:permission="android.permission.BIND_JOB_SERVICE" />
-145-->[com.google.android.gms:play-services-measurement:20.1.1] D:\Program Files\Clock\caches\transforms-3\3d0ca3fbf2e2204fcccd13ad9c4f6706\transformed\play-services-measurement-20.1.1\AndroidManifest.xml:43:13-69
-146
-147        <meta-data
-147-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\0535a9878a0bb96f02aebd3a395af8f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-148            android:name="com.google.android.gms.version"
-148-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\0535a9878a0bb96f02aebd3a395af8f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-149            android:value="@integer/google_play_services_version" />
-149-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\0535a9878a0bb96f02aebd3a395af8f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-150
-151        <provider
-151-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-152            android:name="androidx.startup.InitializationProvider"
-152-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-153            android:authorities="com.mf.bm443.depo.androidx-startup"
-153-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-154            android:exported="false" >
-154-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-155            <meta-data
-155-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-156                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-156-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-157                android:value="androidx.startup" />
-157-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\3ae9d467fbc216659fb26f1b58a01a40\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-158            <meta-data
-158-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\7df73e1c3feaa1a64047bde90ae8eb17\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-159                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-159-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\7df73e1c3feaa1a64047bde90ae8eb17\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-160                android:value="androidx.startup" />
-160-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\7df73e1c3feaa1a64047bde90ae8eb17\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-161        </provider>
-162
-163        <uses-library
-163-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-164            android:name="androidx.window.extensions"
-164-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-165            android:required="false" />
-165-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-166        <uses-library
-166-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-167            android:name="androidx.window.sidecar"
-167-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-168            android:required="false" />
-168-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\34414243c50ccacb5a456acfac2136c3\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-169    </application>
-170
-171</manifest>
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:21.0.3] D:\Program Files\Clock\caches\transforms-3\d6a175ee708c3602b26e9822e0da9684\transformed\jetified-firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+122-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+123            android:visibleToInstantApps="true" />
+123-->[com.google.android.gms:play-services-auth:20.1.0] D:\Program Files\Clock\caches\transforms-3\54cc57fba30886f50e75755c57f99d35\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+127            android:authorities="com.mf.bm443.depo.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:20.1.0] D:\Program Files\Clock\caches\transforms-3\f7f7deff893efd78019d42ffac331b34\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+131
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+133-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+135            android:exported="false" >
+135-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+136        </receiver>
+137
+138        <service
+138-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+139            android:name="com.google.android.gms.measurement.AppMeasurementService"
+139-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+142        <service
+142-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+143            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+143-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" />
+146-->[com.google.android.gms:play-services-measurement:20.1.2] D:\Program Files\Clock\caches\transforms-3\01ef47541f7e6ce82eb41a41e47d6599\transformed\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\cfcefcdeb2e04c1961c8ec4e582b07e5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\cfcefcdeb2e04c1961c8ec4e582b07e5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\cfcefcdeb2e04c1961c8ec4e582b07e5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:18.0.1] D:\Program Files\Clock\caches\transforms-3\cfcefcdeb2e04c1961c8ec4e582b07e5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\c778950196e222eebee26041fd6ff081\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\c778950196e222eebee26041fd6ff081\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:18.0.0] D:\Program Files\Clock\caches\transforms-3\c778950196e222eebee26041fd6ff081\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+156
+157        <provider
+157-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+158            android:name="androidx.startup.InitializationProvider"
+158-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+159            android:authorities="com.mf.bm443.depo.androidx-startup"
+159-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+160            android:exported="false" >
+160-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+161            <meta-data
+161-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+162                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+162-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+163                android:value="androidx.startup" />
+163-->[androidx.emoji2:emoji2:1.0.0] D:\Program Files\Clock\caches\transforms-3\24c39d70702d52571543417c2c59f74c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+164            <meta-data
+164-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\09a1ca6aded9deb8d95f9f2e344043bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+165                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+165-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\09a1ca6aded9deb8d95f9f2e344043bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+166                android:value="androidx.startup" />
+166-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\Program Files\Clock\caches\transforms-3\09a1ca6aded9deb8d95f9f2e344043bb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+167        </provider>
+168
+169        <uses-library
+169-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+170            android:name="androidx.window.extensions"
+170-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+171            android:required="false" />
+171-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+172        <uses-library
+172-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+173            android:name="androidx.window.sidecar"
+173-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+174            android:required="false" />
+174-->[androidx.window:window:1.0.0] D:\Program Files\Clock\caches\transforms-3\2fa766160cc397c5bcf7916c25f26a76\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+175    </application>
+176
+177</manifest>
