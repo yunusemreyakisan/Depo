@@ -25,7 +25,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 public class HomePage extends AppCompatActivity {
 
     private TextView name;
-    private Button btnDepoIslemleri, btnCikis;
+    private Button btnDepoIslemleri, btnCikis, btnUrunIslemleri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,12 +36,12 @@ public class HomePage extends AppCompatActivity {
         isimOkuma();
         initComponents();
         depoIslemleri();
+        urunIslemleri();
         //popupMenuCikis();
         logout();
 
 
     }
-
 
 
 
@@ -91,9 +91,8 @@ public class HomePage extends AppCompatActivity {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         assert mUser != null;
         DocumentReference docRef = db.collection("Kullanıcılar").document(mUser.getUid());
-        docRef.get().
-
-                addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+        docRef.get()
+                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
                     private static final String TAG = "123";
 
                     @Override
@@ -125,10 +124,23 @@ public class HomePage extends AppCompatActivity {
     }
 
 
+
+    private void urunIslemleri() {
+        btnUrunIslemleri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomePage.this, UrunIslemleri.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+
     private void initComponents() {
         name = findViewById(R.id.txtFirebaseAd);
         btnDepoIslemleri = findViewById(R.id.btnDepoIslemleri);
         btnCikis = findViewById(R.id.btnCikis);
+        btnUrunIslemleri = findViewById(R.id.btnUrunIslemleri);
     }
 }
 
